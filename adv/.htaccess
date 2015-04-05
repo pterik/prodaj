@@ -1,0 +1,10 @@
+####Custom Rewrite Rules Start###
+RewriteEngine on
+RewriteBase /adv/
+RewriteCond $1 ^(index\.php)?$ [OR]
+RewriteCond $1 \.(gif|jpg|css|js|png|ico)$ [NC,OR]
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^(.*)$ - [S=1]
+RewriteRule . /adv/index.php [L]
+####Custom Rewrite Rules End####
