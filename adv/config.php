@@ -11,8 +11,8 @@ define('DB_NAME', 'u519801583_oc');
 /** MySQL database username */
 define('DB_USER', 'u519801583_oc');
 
-/** MySQL database password */
-define('DB_PASSWORD', '');
+/** MySQL database password - First letter not present*/
+define('DB_PASSWORD', '?DcvoVd2nj');
 
 /** MySQL hostname */
 define('DB_HOST', 'mysql.hostinger.pl');
