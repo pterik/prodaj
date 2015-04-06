@@ -100,8 +100,8 @@
     <?php } ?>
     <div id="description">
         <p><?php echo '<b>POL:</b> ';  $description =osc_item_description_lang('pl_PL');  echo $description;?></p>
-        <p><?php echo '<b>RUS:</b> ';  $description =osc_item_description_lang('ru_RU');  if ($description=="") $description=_e('Not yet translated', 'bender_black'); echo $description;?></p>
-        <p><?php echo '<b>UKR:</b> ';  $description =osc_item_description_lang('ua_UA');  if ($description=="") $description=_e('Not yet translated', 'bender_black'); echo $description;?></p>
+        <p><?php echo '<b>RUS:</b> ';  $description =osc_item_description_lang('ru_RU');  if ($description=="") $description=_e('Translation in progress', 'bender_black'); echo $description;?></p>
+        <p><?php echo '<b>UKR:</b> ';  $description =osc_item_description_lang('ua_UA');  if ($description=="") $description=_e('Translation in progress', 'bender_black'); echo $description;?></p>
         <div id="custom_fields">
             <?php if( osc_count_item_meta() >= 1 ) { ?>
                 <br />
