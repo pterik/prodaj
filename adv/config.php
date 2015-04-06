@@ -16,6 +16,7 @@ define('DB_PASSWORD', 'DcvoVd2nj');
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost');
+/**define('DB_HOST', 'mysql.hostinger.pl'); **/
 
 /** Database Table prefix */
 define('DB_TABLE_PREFIX', 'oc353_');
