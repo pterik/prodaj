@@ -294,7 +294,7 @@ FUNCTIONS
     }
     if( !function_exists('bender_black_item_title_lang') ) {
         function bender_black_item_title_lang($lang) {
-            $title = osc_item_title($lang);
+            $title = osc_item_title_lang($lang);
             return $title;
         }
     }
@@ -314,7 +314,7 @@ FUNCTIONS
     }
     if( !function_exists('bender_black_item_description_lang') ) {
         function bender_black_item_description_lang($lang) {
-            $description = osc_item_description($lang);
+            $description = osc_item_description_lang($lang);
 			return $description;
         }
     }

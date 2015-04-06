@@ -53,7 +53,10 @@
     osc_current_web_theme_path('header.php');
 ?>
 <div id="item-content">
-        <h1><?php if( osc_price_enabled_at_items() ) { ?><span class="price"><?php echo osc_item_formated_price(); ?></span> <?php } ?><strong><?php echo osc_item_title().' ' . osc_item_city(); ?></strong></h1>
+        <h1><?php if( osc_price_enabled_at_items() ) { ?><span class="price"><?php echo osc_item_formated_price(); ?></span> <?php } ?><strong><?php 
+				$title=osc_item_title_lang(osc_current_user_locale()); if (trim($title)==false) {$title = osc_item_title_lang('pl_PL').' (POL)';}; echo $title;?>
+				</strong> </h1>
+				<?php echo '<p>'.osc_item_city(); ?>
         <div class="item-header">
             <div>
                 <?php if ( osc_item_pub_date() !== '' ) { printf( __('<strong class="publish">Published date</strong>: %1$s', 'bender_black'), osc_format_date( osc_item_pub_date() ) ); } ?>
@@ -96,9 +99,9 @@
         <?php } ?>
     <?php } ?>
     <div id="description">
-        <p><?php echo '<b>POL:</b> '.osc_item_description('pl_PL'); ?></p>
-        <p><?php echo '<b>RUS:</b> '.osc_item_description('ru_RU'); ?></p>
-        <p><?php echo '<b>UKR:</b> '.osc_item_description('uk_UK'); ?></p>
+        <p><?php echo '<b>POL:</b> ';  $description =osc_item_description_lang('pl_PL');  echo $description;?></p>
+        <p><?php echo '<b>RUS:</b> ';  $description =osc_item_description_lang('ru_RU');  if ($description=="") $description=_e('Not yet translated', 'bender_black'); echo $description;?></p>
+        <p><?php echo '<b>UKR:</b> ';  $description =osc_item_description_lang('ua_UA');  if ($description=="") $description=_e('Not yet translated', 'bender_black'); echo $description;?></p>
         <div id="custom_fields">
             <?php if( osc_count_item_meta() >= 1 ) { ?>
                 <br />

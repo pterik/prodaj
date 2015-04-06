@@ -75,6 +75,24 @@ function osc_field($item, $field, $locale) {
 }
 
 /**
+ * My modification of osc_field for selected language only
+ *
+ * @param array $item
+ * @param string $field
+ * @param string $locale
+ * @return string
+ */
+function osc_field_lang($item, $field, $locale) {
+	if(!is_null($item)) {
+        if($locale != "") {
+            if(isset($item["locale"]) && !empty($item['locale']) && isset($item["locale"][$locale]) && isset($item["locale"][$locale][$field])) {
+                return $item["locale"][$locale][$field];
+            }
+        }
+    }
+    return '';
+}
+/**
  * Print all widgets belonging to $location
  *
  * @param string $location

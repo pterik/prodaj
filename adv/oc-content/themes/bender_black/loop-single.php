@@ -24,22 +24,24 @@
 <li class="listing-card <?php echo $class; if(osc_item_is_premium()){ echo ' premium'; } ?>">
     <?php if( osc_images_enabled_at_items() ) { ?>
         <?php if(osc_count_item_resources()) { ?>
-    <a class="listing-thumb" href="<?php echo osc_item_url() ; ?>" title="<?php echo osc_esc_html(osc_item_title()) ; ?>"><img src="<?php echo osc_resource_thumbnail_url(); ?>" title="" alt="<?php echo osc_esc_html(osc_item_title()) ; ?>" width="<?php echo $size[0]; ?>" height="<?php echo $size[1]; ?>"></a>
+    <a class="listing-thumb" href="<?php echo osc_item_url() ; ?>" title="<?php echo osc_esc_html(osc_item_title_lang(osc_current_user_locale())) ; ?>"><img src="<?php echo osc_resource_thumbnail_url(); ?>" title="" alt="<?php echo osc_esc_html(osc_item_title_lang(osc_current_user_locale())) ; ?>" width="<?php echo $size[0]; ?>" height="<?php echo $size[1]; ?>"></a>
         <?php } else { ?>
-            <a class="listing-thumb" href="<?php echo osc_item_url() ; ?>" title="<?php echo osc_esc_html(osc_item_title()) ; ?>"><img src="<?php echo osc_current_web_theme_url('images/no_photo.gif'); ?>" title="" alt="<?php echo osc_esc_html(osc_item_title()) ; ?>" width="<?php echo $size[0]; ?>" height="<?php echo $size[1]; ?>"></a>
+            <a class="listing-thumb" href="<?php echo osc_item_url() ; ?>" title="<?php echo osc_esc_html(osc_item_title_lang(osc_current_user_locale())) ; ?>"><img src="<?php echo osc_current_web_theme_url('images/no_photo.gif'); ?>" title="" alt="<?php echo osc_esc_html(osc_item_title_lang(osc_current_user_locale())) ; ?>" width="<?php echo $size[0]; ?>" height="<?php echo $size[1]; ?>"></a>
         <?php } ?>
     <?php } ?>
     <div class="listing-detail">
         <div class="listing-cell">
             <div class="listing-data">
                 <div class="listing-basicinfo">
-                    <a href="<?php echo osc_item_url() ; ?>" class="title" title="<?php echo osc_esc_html(osc_item_title()) ; ?>"><?php echo osc_item_title() ; ?></a>
+                    <a href="<?php echo osc_item_url() ; ?>" class="title" title="<?php echo osc_esc_html(osc_item_title_lang(osc_current_user_locale())) ; ?>"><?php $title=osc_item_title_lang(osc_current_user_locale()); if (trim($title)==false) {$title = osc_item_title_lang('pl_PL').' (POL)';}; echo $title; ?></a>
                     <div class="listing-attributes">
                         <span class="category"><?php echo osc_item_category() ; ?></span> -
                         <span class="location"><?php echo osc_item_city(); ?> <?php if( osc_item_region()!='' ) { ?> (<?php echo osc_item_region(); ?>)<?php } ?></span> <span class="g-hide">-</span> <?php echo osc_format_date(osc_item_pub_date()); ?>
                         <?php if( osc_price_enabled_at_items() ) { ?><span class="currency-value"><?php echo osc_format_price(osc_item_price()); ?></span><?php } ?>
                     </div>
-                    <p><?php echo osc_highlight( osc_item_description() ,250) ; ?></p>
+                    <p><?php echo '<b>POL: </b>'; $description = osc_highlight(osc_item_description_lang('pl_PL') ,250); echo $description; ?></p>
+                    <p><?php echo '<b>RUS: </b>'; $description = osc_highlight(osc_item_description_lang('ru_RU') ,250); if (trim($description)==false) $description= _e('Translation in progress', 'bender_black'); echo $description; ?></p>
+                    <p><?php echo '<b>UKR: </b>'; $description = osc_highlight(osc_item_description_lang('uk_UK') ,250); if (trim($description)==false) $description= _e('Translation in progress', 'bender_black'); echo $description; ?></p>
                 </div>
                 <?php if($admin){ ?>
                     <span class="admin-options">

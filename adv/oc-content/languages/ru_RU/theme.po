@@ -2,12 +2,12 @@
 # This file is distributed under the same license as the Bender package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2015-03-08 23:51+0100\n"
+"PO-Revision-Date: 2015-04-06 19:17+0100\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Poedit 1.7.4\n"
+"X-Generator: Poedit 1.8beta1\n"
 "Project-Id-Version: Bender\n"
 "POT-Creation-Date: \n"
 "Last-Translator: \n"
@@ -350,11 +350,11 @@ msgstr "Заголовок"
 msgid "Title_pl_PL"
 msgstr "Заголовок по-польски"
 
-#: item-post.php:65 
+#: item-post.php:65
 msgid "Title_ru_RU"
 msgstr "Заголовок по-русски"
 
-#: item-post.php:71 
+#: item-post.php:71
 msgid "Title_uk_UK"
 msgstr "Заголовок по-украински"
 
@@ -362,15 +362,15 @@ msgstr "Заголовок по-украински"
 msgid "Description"
 msgstr "Описание"
 
-#: item-post.php:65 
+#: item-post.php:65
 msgid "Description_pl_PL"
 msgstr "Описание по-польски"
 
-#: item-post.php:65 
+#: item-post.php:65
 msgid "Description_ru_RU"
 msgstr "Описание по-русски"
 
-#: item-post.php:65 
+#: item-post.php:65
 msgid "Description_uk_UK"
 msgstr "Описание по-украински"
 
@@ -588,6 +588,13 @@ msgstr "Это действие не может быть отменено. Вы 
 #: loop-single-premium.php:51 loop-single.php:51
 msgid "Activate"
 msgstr "Активировать"
+
+#: loop-single-premium.php:45 loop-single.php:45
+msgid "Not yet translated"
+msgstr "Ещё не переведено"
+
+msgid "Translation in progress"
+msgstr "Перевод обрабатывается"
 
 #: main.php:38
 msgid "Latest Listings"

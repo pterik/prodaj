@@ -157,6 +157,16 @@
     }
 
     /**
+     * My modification, language included
+     *
+     * @param string $locale
+     * @return string $desc
+     */
+    function osc_item_description_lang($locale) {
+		return osc_field_lang(osc_item(), "s_description", $locale);
+    }
+
+    /**
      * Gets title from current item, if $locale is unspecified $locale is current user locale
      *
      * @param string $locale
@@ -178,6 +188,16 @@
             }
         }
         return (string) $title;
+    }
+
+    /**
+     * My modification of osc_item_title for selected language
+     *
+     * @param string $locale
+     * @return string
+     */
+    function osc_item_title_lang($locale) {
+		return osc_field_lang(osc_item(), "s_title", $locale);
     }
 
     /**
