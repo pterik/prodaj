@@ -96,9 +96,9 @@
         <?php } ?>
     <?php } ?>
     <div id="description">
-        <p><?php echo osc_item_description('pl_PL'); ?></p>
-        <p><?php echo osc_item_description('ru_RU'); ?></p>
-        <p><?php echo osc_item_description('uk_UK'); ?></p>
+        <p><?php echo '<b>POL:</b> '.osc_item_description('pl_PL'); ?></p>
+        <p><?php echo '<b>RUS:</b> '.osc_item_description('ru_RU'); ?></p>
+        <p><?php echo '<b>UKR:</b> '.osc_item_description('uk_UK'); ?></p>
         <div id="custom_fields">
             <?php if( osc_count_item_meta() >= 1 ) { ?>
                 <br />
