@@ -1,0 +1,3 @@
+Bucket prodaj.pl
+Access key: AKIAIARU26SH7SW7RX6Q
+Secret Access Key: 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
