@@ -12,16 +12,16 @@ define('DB_NAME', 'u519801583_oc');
 define('DB_USER', 'u519801583_oc');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'ZDcvoVd2nj');
+define('DB_PASSWORD', 'DcvoVd2nj');
 
 /** MySQL hostname */
-define('DB_HOST', 'mysql.hostinger.pl');
+define('DB_HOST', 'localhost');
 
 /** Database Table prefix */
 define('DB_TABLE_PREFIX', 'oc353_');
 
 define('REL_WEB_URL', '/adv/');
 
-define('WEB_PATH', 'http://prodaj.pl/adv/');
+define('WEB_PATH', 'http://prodaj.local/adv/');
 
 ?>
