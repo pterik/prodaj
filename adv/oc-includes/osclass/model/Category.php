@@ -94,6 +94,8 @@
             $this->dao->join(DB_TABLE_PREFIX.'t_category_description as b', 'a.pk_i_id = b.fk_i_category_id', 'INNER');
             $this->dao->join(DB_TABLE_PREFIX.'t_category_stats  as c ', 'a.pk_i_id = c.fk_i_category_id', 'LEFT');
             $this->dao->where("b.s_name != ''");
+            $this->dao->where( sprintf("b.fk_c_locale_code='%s'", $this->dao->connId->real_escape_string($this->_language) ) );
+			//AND fk_c_locale_code = 'ru_RU'
             $this->dao->orderBy('locale_order', 'DESC');
             $subquery = $this->dao->_getSelect();
             $this->dao->_resetSelect();
@@ -130,6 +132,8 @@
             $this->dao->join(DB_TABLE_PREFIX.'t_category_stats  as c ', 'a.pk_i_id = c.fk_i_category_id', 'LEFT');
             $this->dao->where("b.s_name != ''");
             $this->dao->where("a.b_enabled = 1");
+            $this->dao->where( sprintf("b.fk_c_locale_code='%s'", $this->dao->connId->real_escape_string($this->_language) ) );
+			//AND fk_c_locale_code = 'ru_RU'
             $this->dao->orderBy('locale_order', 'DESC');
             $subquery = $this->dao->_getSelect();
             $this->dao->_resetSelect();

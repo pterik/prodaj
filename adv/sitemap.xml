@@ -2,32 +2,67 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
         <loc>http://prodaj.pl/adv/</loc>
-        <lastmod>2015-03-25</lastmod>
+        <lastmod>2015-04-04</lastmod>
         <changefreq>always</changefreq>
     </url>
     <url>
         <loc>http://prodaj.pl/adv/index.php?page=search&amp;sCategory=vehicles</loc>
-        <lastmod>2015-03-25</lastmod>
+        <lastmod>2015-04-04</lastmod>
         <changefreq>hourly</changefreq>
     </url>
     <url>
         <loc>http://prodaj.pl/adv/index.php?page=search&amp;sCategory=cars</loc>
-        <lastmod>2015-03-25</lastmod>
+        <lastmod>2015-04-04</lastmod>
         <changefreq>hourly</changefreq>
     </url>
     <url>
         <loc>http://prodaj.pl/adv/index.php?page=search&amp;sCategory=houses-apartments-for-sale</loc>
-        <lastmod>2015-03-25</lastmod>
+        <lastmod>2015-04-04</lastmod>
+        <changefreq>hourly</changefreq>
+    </url>
+    <url>
+        <loc>http://prodaj.pl/adv/index.php?page=search&amp;sCategory=houses-apartments-for-sale&amp;sCountry=Poland</loc>
+        <lastmod>2015-04-04</lastmod>
+        <changefreq>hourly</changefreq>
+    </url>
+    <url>
+        <loc>http://prodaj.pl/adv/index.php?page=search&amp;sCategory=houses-apartments-for-sale&amp;sCountry=Poland&amp;sRegion=mazowieckie%2C%2B%25D0%259C%25D0%25B0%25D0%25B7%25D0%25BE%25D0%25B2%25D0%25B5%25D1%2586%25D0%25BA%25D0%25BE%25D0%25B5%2B%25D0%25B2%25D0%25BE%25D0%25B5%25D0%25B2%25D0%25BE%25D0%25B4%25D1%2581%25D1%2582%25D0%25B2%25D0%25BE</loc>
+        <lastmod>2015-04-04</lastmod>
+        <changefreq>hourly</changefreq>
+    </url>
+    <url>
+        <loc>http://prodaj.pl/adv/index.php?page=search&amp;sCategory=houses-apartments-for-sale&amp;sCountry=Poland&amp;sRegion=mazowieckie%2C%2B%25D0%259C%25D0%25B0%25D0%25B7%25D0%25BE%25D0%25B2%25D0%25B5%25D1%2586%25D0%25BA%25D0%25BE%25D0%25B5%2B%25D0%25B2%25D0%25BE%25D0%25B5%25D0%25B2%25D0%25BE%25D0%25B4%25D1%2581%25D1%2582%25D0%25B2%25D0%25BE&amp;sCity=Warszawa</loc>
+        <lastmod>2015-04-04</lastmod>
         <changefreq>hourly</changefreq>
     </url>
     <url>
         <loc>http://prodaj.pl/adv/index.php?page=search&amp;sCategory=houses-apartments-for-rent</loc>
-        <lastmod>2015-03-25</lastmod>
+        <lastmod>2015-04-04</lastmod>
         <changefreq>hourly</changefreq>
     </url>
     <url>
         <loc>http://prodaj.pl/adv/index.php?page=search&amp;sCategory=real-estate</loc>
-        <lastmod>2015-03-25</lastmod>
+        <lastmod>2015-04-04</lastmod>
+        <changefreq>hourly</changefreq>
+    </url>
+    <url>
+        <loc>http://prodaj.pl/adv/index.php?page=search&amp;sCategory=real-estate&amp;sCountry=Poland</loc>
+        <lastmod>2015-04-04</lastmod>
+        <changefreq>hourly</changefreq>
+    </url>
+    <url>
+        <loc>http://prodaj.pl/adv/index.php?page=search&amp;sCategory=real-estate&amp;sCountry=Poland&amp;sRegion=mazowieckie%2C%2B%25D0%259C%25D0%25B0%25D0%25B7%25D0%25BE%25D0%25B2%25D0%25B5%25D1%2586%25D0%25BA%25D0%25BE%25D0%25B5%2B%25D0%25B2%25D0%25BE%25D0%25B5%25D0%25B2%25D0%25BE%25D0%25B4%25D1%2581%25D1%2582%25D0%25B2%25D0%25BE</loc>
+        <lastmod>2015-04-04</lastmod>
+        <changefreq>hourly</changefreq>
+    </url>
+    <url>
+        <loc>http://prodaj.pl/adv/index.php?page=search&amp;sCategory=real-estate&amp;sCountry=Poland&amp;sRegion=mazowieckie%2C%2B%25D0%259C%25D0%25B0%25D0%25B7%25D0%25BE%25D0%25B2%25D0%25B5%25D1%2586%25D0%25BA%25D0%25BE%25D0%25B5%2B%25D0%25B2%25D0%25BE%25D0%25B5%25D0%25B2%25D0%25BE%25D0%25B4%25D1%2581%25D1%2582%25D0%25B2%25D0%25BE&amp;sCity=Warszawa</loc>
+        <lastmod>2015-04-04</lastmod>
+        <changefreq>hourly</changefreq>
+    </url>
+    <url>
+        <loc>http://prodaj.pl/adv/index.php?page=search&amp;sCountry=Poland&amp;sRegion=mazowieckie%2C%2B%25D0%259C%25D0%25B0%25D0%25B7%25D0%25BE%25D0%25B2%25D0%25B5%25D1%2586%25D0%25BA%25D0%25BE%25D0%25B5%2B%25D0%25B2%25D0%25BE%25D0%25B5%25D0%25B2%25D0%25BE%25D0%25B4%25D1%2581%25D1%2582%25D0%25B2%25D0%25BE&amp;sCity=Warszawa</loc>
+        <lastmod>2015-04-04</lastmod>
         <changefreq>hourly</changefreq>
     </url>
 </urlset>

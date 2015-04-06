@@ -81,7 +81,7 @@
                 $this->aCurrent[$key] = current( $this->aExported[$key] );
                 return $this->aCurrent[$key];
             }
-            return '';
+		return '';
         }
 
         function _key($key)

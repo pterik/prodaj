@@ -230,7 +230,7 @@ FUNCTIONS
                     if ( osc_count_subcategories() > 0 ) { ?>
                     <span class="collapse resp-toogle"><i class="fa fa-caret-right fa-lg"></i></span>
                     <?php } ?>
-                    <a class="category <?php echo $_slug; ?>" href="<?php echo $_url; ?>"><?php echo $_name ; ?></a> <span>(<?php echo $_total_items ; ?>)</span>
+                    <a class="category <?php echo $_slug; ?>" href="<?php echo $_url; ?>"><?php echo $_name; ?></a> <span>(<?php echo $_total_items ; ?>)</span>
                  </h1>
                  <?php if ( osc_count_subcategories() > 0 ) { ?>
                    <ul>

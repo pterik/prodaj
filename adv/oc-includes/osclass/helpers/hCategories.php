@@ -156,8 +156,7 @@
      */
     function osc_category_name($locale = "") {
         if ($locale == "") $locale = osc_current_user_locale();
-        return osc_category_field("s_name", $locale);
-    }
+        return osc_category_field("s_name", $locale);}
 
     /**
      * Gets the description of the current category
