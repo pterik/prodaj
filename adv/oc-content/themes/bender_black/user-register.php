@@ -42,12 +42,6 @@
                 </div>
             </div>
             <div class="control-group">
-                <label class="control-label" for="language"><?php _e('Preferred language', 'bender_black'); ?></label>
-                <div class="controls">
-                    <?php UserForm::locale_text(); ?>
-                </div>
-            </div>
-            <div class="control-group">
                 <label class="control-label" for="email"><?php _e('E-mail', 'bender_black'); ?></label>
                 <div class="controls">
                     <?php UserForm::email_text(); ?>
