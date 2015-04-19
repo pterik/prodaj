@@ -83,8 +83,8 @@
                 padding:7px;
                 max-width: 400px;
                 border-radius:5px;
-                --moz-border-radius: 5px;
-                ---webkit-border-radius: 5px;
+                //--moz-border-radius: 5px;
+                //---webkit-border-radius: 5px;
                 z-index: 100;
             }
         </style>
