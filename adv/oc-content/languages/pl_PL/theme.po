@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Bender package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2015-04-06 20:13+0100\n"
+"PO-Revision-Date: 2015-04-18 23:39+0100\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -416,6 +416,10 @@ msgstr "Imię"
 msgid "E-mail"
 msgstr "E-mail"
 
+#: user-login.php:38 
+msgid "Name or E-mail"
+msgstr "Twoje imię lub e-mail"
+
 #: item-post.php:134
 msgid "Show e-mail on the listing page"
 msgstr "Zobacz e-mail na stronie ogłoszenia"
@@ -791,6 +795,10 @@ msgstr "Wyślij mi nowe hasło"
 #: user-register.php:31
 msgid "Register an account for free"
 msgstr "Stwórz nowe konto za darmo"
+
+#: user-register.php:45
+msgid "Preferred language"
+msgstr "Preferowany język"
 
 #: user-register.php:57
 msgid "Repeat password"

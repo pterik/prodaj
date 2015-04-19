@@ -417,9 +417,13 @@ msgstr "Ім'я"
 msgid "E-mail"
 msgstr "E-mail"
 
+#: user-login.php:38 
+msgid "Name or E-mail"
+msgstr "Им'я або e-mail"
+
 #: item-post.php:134
 msgid "Show e-mail on the listing page"
-msgstr "Показать e-mail на странице объявления"
+msgstr "Показати e-mail на сторіниці оголошення"
 
 #: item-post.php:153 user-change_email.php:59 user-change_password.php:64
 #: user-change_username.php:102 user-profile.php:114
@@ -792,6 +796,10 @@ msgstr "Надіслати новий пароль"
 #: user-register.php:31
 msgid "Register an account for free"
 msgstr "Зареєструватися"
+
+#: user-register.php:45
+msgid "Preferred language"
+msgstr "Бажана мова"
 
 #: user-register.php:57
 msgid "Repeat password"

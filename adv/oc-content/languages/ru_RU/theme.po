@@ -414,7 +414,11 @@ msgstr "Имя"
 #: item-post.php:127 user-login.php:38 user-recover.php:37
 #: user-register.php:45
 msgid "E-mail"
-msgstr "Электронная почта"
+msgstr "E-mail"
+
+#: user-login.php:38 
+msgid "Name or E-mail"
+msgstr "Имя или E-mail"
 
 #: item-post.php:134
 msgid "Show e-mail on the listing page"
@@ -791,6 +795,10 @@ msgstr "Выслать мне новый пароль"
 #: user-register.php:31
 msgid "Register an account for free"
 msgstr "Бесплатная регистрация"
+
+#: user-register.php:45
+msgid "Preferred language"
+msgstr "Предпочтительный язык"
 
 #: user-register.php:57
 msgid "Repeat password"
