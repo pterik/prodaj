@@ -50,6 +50,7 @@
                 's_name',
                 's_password',
                 's_secret',
+				'fk_c_language_code',
                 's_username',
                 's_email',
                 's_website',

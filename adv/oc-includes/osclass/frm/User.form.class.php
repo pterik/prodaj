@@ -54,6 +54,10 @@
             parent::generic_password("s_password2", '', null, false);
         }
 
+        static public function locale_text($user = null) {
+            parent::generic_input_text("fk_c_code", isset($user['fk_c_code'])? $user['fk_c_code'] : '', null, false);
+        }
+
         static public function email_text($user = null) {
             parent::generic_input_text("s_email", isset($user['s_email'])? $user['s_email'] : '', null, false);
         }
@@ -92,6 +96,26 @@
                 if($num_locales>1) { echo '</div>'; };
             }
             if($num_locales>1) { echo '</div>'; };
+        }
+
+        static public function language_info($user_language, $user = null) {
+            $num_locales = count($user_language);
+            //if($num_locales > 1) { echo '<div class="tabber">'; }
+            foreach($user_language as $locale) {
+                //if($num_locales>1) { echo '<div class="tabbertab">'; };
+                    //if($num_locales > 1) { echo '<h2>' . $locale['s_name'] . '</h2>'; }
+                    $info = '';
+                    if( is_array($user) ) {
+                        if( isset($user['locale'][$locale['pk_c_code']])) {
+                            if(isset($user['locale'][$locale['pk_c_code']]['s_info'])) {
+                                $info = $user['locale'][$locale['pk_c_code']]['s_info'];
+                            }
+                        }
+                    }
+                    self::info_textarea('s_info', $locale['pk_c_code'], $info);
+                //if($num_locales>1) { echo '</div>'; };
+            }
+            //if($num_locales>1) { echo '</div>'; };
         }
 
         static public function country_select($countries, $user = null) {
