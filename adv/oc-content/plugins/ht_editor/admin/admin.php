@@ -33,7 +33,6 @@
 <h2>Some sample snippets to improve your osclass performance</h2>
 <h3>To Enable Compression add these lines to your htaccess file</h3>
 <style type="text/css"><!--
-
 .html4strict  {font-family:monospace;color: #006; border: 1px solid #d0d0d0; background-color: #f0f0f0;}
 .html4strict a:link {color: #000060;}
 .html4strict a:hover {background-color: #f0f000;}
@@ -50,8 +49,8 @@
 .html4strict .sc1 {color: #ddbb00;}
 .html4strict .sc2 {color: #009900;}
 .html4strict span.xtra { display:block; }
-
---!></style>
+--!>
+</style>
 <p> <div class="html4strict">&nbsp;<span class="sc2">&lt;IfModule mod_deflate.c&gt;</span><br />
 
 # force deflate for mangled headers <br />
