@@ -210,6 +210,10 @@
                             $l = array('title' => $this->title['user_items']);
                             $this->addLevel($l);
                         break;
+                        case('site_language'):
+                            $l = array('title' => $this->title['site_language']);
+                            $this->addLevel($l);
+                        break;
                         case('alerts'):
                             $l = array('title' => $this->title['user_alerts']);
                             $this->addLevel($l);
@@ -327,6 +331,7 @@
             $this->title['user_items']             = __('My listings');
             $this->title['user_alerts']            = __('My alerts');
             $this->title['user_profile']           = __('Update my profile');
+            $this->title['user_site_language']     = __('Site language');
             $this->title['user_change_email']      = __('Change my email');
             $this->title['user_change_username']   = __('Change my username');
             $this->title['user_change_password']   = __('Change my password');

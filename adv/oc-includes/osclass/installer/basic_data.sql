@@ -94,6 +94,7 @@ INSERT INTO /*TABLE_PREFIX*/t_preference VALUES
     ,('osclass', 'rewrite_user_recover', 'user/recover', 'STRING')
     ,('osclass', 'rewrite_user_forgot', 'user/forgot', 'STRING')
     ,('osclass', 'rewrite_user_change_password', 'password/change', 'STRING')
+    ,('osclass', 'rewrite_user_site_language', 'user/site_language', 'STRING')
     ,('osclass', 'rewrite_user_change_email', 'email/change', 'STRING')
     ,('osclass', 'rewrite_user_change_username', 'username/change', 'STRING')
     ,('osclass', 'rewrite_user_change_email_confirm', 'email/confirm', 'STRING')

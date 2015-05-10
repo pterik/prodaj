@@ -35,7 +35,7 @@
     $osc_user = osc_user();
 ?>
 <h1><?php _e('Update account', 'bender_black'); ?></h1>
-<?php UserForm::location_javascript(); ?>
+<?php UserForm::location_javascript();?>
 <div class="form-container form-horizontal">
     <div class="resp-wrapper">
         <ul id="error_list"></ul>
@@ -46,6 +46,13 @@
                 <label class="control-label" for="name"><?php _e('Name', 'bender_black'); ?></label>
                 <div class="controls">
                     <?php UserForm::name_text(osc_user()); ?>
+                </div>
+            </div>
+			
+            <div class="control-group">
+                <label class="control-label" for="user_type"><?php _e('Site language'); ?></label>
+                <div class="controls">
+                    <?php UserForm::site_language_select(__get('locales'), osc_user()); ?>
                 </div>
             </div>
             <div class="control-group">

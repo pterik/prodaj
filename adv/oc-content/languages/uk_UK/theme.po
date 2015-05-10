@@ -280,14 +280,22 @@ msgstr "Попередження"
 msgid "Update account"
 msgstr "Оновлення облікового запису"
 
+#: functions.php:382 functions.php:427
+msgid "Site language"
+msgstr "Мова сайту"
+
 #: functions.php:369 functions.php:419
 msgid "Change email"
-msgstr "змінити e-mail"
+msgstr "Змінити e-mail"
 
 #: functions.php:370 functions.php:424 user-change_username.php:34
 #: user-change_username.php:39
 msgid "Change username"
-msgstr "Змінити  ім'я користувача"
+msgstr "Змінити ім'я користувача"
+
+#: user-site_language.php:39
+msgid "Change site language"
+msgstr "Змінити мову повідомлень на сайті"
 
 #: functions.php:371 functions.php:374 functions.php:429
 #: user-change_password.php:32 user-change_password.php:37

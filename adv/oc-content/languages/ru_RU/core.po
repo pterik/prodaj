@@ -1228,6 +1228,11 @@ msgstr "(напр.: *@badsite.com)"
 msgid "About you"
 msgstr "О вас"
 
+#: oc-admin/themes/modern/users/frm.php:262
+#: oc-includes/osclass/helpers/hUtils.php:198
+msgid "Site language"
+msgstr "Язык сайта"
+
 #: oc-admin/themes/modern/users/frm.php:302
 msgid "If you'd like to change the password, type a new one. Otherwise leave this blank"
 msgstr "Если вы хотите изменить пароль, введите новый. В противном случае оставьте это поле пустым"
@@ -3653,6 +3658,10 @@ msgstr "Показать фильтры"
 #: oc-includes/osclass/frm/User.form.class.php:148
 msgid "User"
 msgstr "Пользователь"
+
+#: oc-includes/osclass/frm/User.form.class.php:103
+msgid "Select a language..."
+msgstr "Выберите язык..."
 
 #: oc-admin/themes/modern/items/index.php:339
 #: oc-admin/themes/modern/users/alerts.php:135

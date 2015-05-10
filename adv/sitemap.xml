@@ -2,87 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
         <loc>http://prodaj.local/adv/</loc>
-        <lastmod>2015-04-18</lastmod>
+        <lastmod>2015-04-25</lastmod>
         <changefreq>always</changefreq>
     </url>
     <url>
-        <loc>http://prodaj.local/adv/index.php?page=search&amp;sCategory=%2525d0%252590%2525d0%2525b2%2525d1%252582%2525d0%2525be-%2525d0%2525bc%2525d0%2525be%2525d1%252582%2525d0%2525be</loc>
-        <lastmod>2015-04-18</lastmod>
-        <changefreq>hourly</changefreq>
-    </url>
-    <url>
-        <loc>http://prodaj.local/adv/index.php?page=search&amp;sCategory=%2525d0%252590%2525d0%2525b2%2525d1%252582%2525d0%2525be-%2525d0%2525bc%2525d0%2525be%2525d1%252582%2525d0%2525be&amp;sCountry=Poland</loc>
-        <lastmod>2015-04-18</lastmod>
-        <changefreq>hourly</changefreq>
-    </url>
-    <url>
-        <loc>http://prodaj.local/adv/index.php?page=search&amp;sCategory=%2525d0%252590%2525d0%2525b2%2525d1%252582%2525d0%2525be-%2525d0%2525bc%2525d0%2525be%2525d1%252582%2525d0%2525be&amp;sCountry=Poland&amp;sRegion=mazowieckie%2C%2B%25D0%259C%25D0%25B0%25D0%25B7%25D0%25BE%25D0%25B2%25D0%25B5%25D1%2586%25D0%25BA%25D0%25BE%25D0%25B5%2B%25D0%25B2%25D0%25BE%25D0%25B5%25D0%25B2%25D0%25BE%25D0%25B4%25D1%2581%25D1%2582%25D0%25B2%25D0%25BE</loc>
-        <lastmod>2015-04-18</lastmod>
-        <changefreq>hourly</changefreq>
-    </url>
-    <url>
-        <loc>http://prodaj.local/adv/index.php?page=search&amp;sCategory=%2525d0%252590%2525d0%2525b2%2525d1%252582%2525d0%2525be-%2525d0%2525bc%2525d0%2525be%2525d1%252582%2525d0%2525be&amp;sCountry=Poland&amp;sRegion=mazowieckie%2C%2B%25D0%259C%25D0%25B0%25D0%25B7%25D0%25BE%25D0%25B2%25D0%25B5%25D1%2586%25D0%25BA%25D0%25BE%25D0%25B5%2B%25D0%25B2%25D0%25BE%25D0%25B5%25D0%25B2%25D0%25BE%25D0%25B4%25D1%2581%25D1%2582%25D0%25B2%25D0%25BE&amp;sCity=Warszawa</loc>
-        <lastmod>2015-04-18</lastmod>
-        <changefreq>hourly</changefreq>
-    </url>
-    <url>
-        <loc>http://prodaj.local/adv/index.php?page=search&amp;sCategory=%2525d0%252590%2525d0%2525b2%2525d1%252582%2525d0%2525be%2525d0%2525bc%2525d0%2525be%2525d0%2525b1%2525d0%2525b8%2525d0%2525bb%2525d0%2525b8</loc>
-        <lastmod>2015-04-18</lastmod>
+        <loc>http://prodaj.local/adv/index.php?page=search</loc>
+        <lastmod>2015-04-25</lastmod>
         <changefreq>hourly</changefreq>
     </url>
     <url>
         <loc>http://prodaj.local/adv/index.php?page=search</loc>
-        <lastmod>2015-04-18</lastmod>
-        <changefreq>hourly</changefreq>
-    </url>
-    <url>
-        <loc>http://prodaj.local/adv/index.php?page=search&amp;sCountry=Poland</loc>
-        <lastmod>2015-04-18</lastmod>
-        <changefreq>hourly</changefreq>
-    </url>
-    <url>
-        <loc>http://prodaj.local/adv/index.php?page=search&amp;sCountry=Poland&amp;sRegion=mazowieckie%2C%2B%25D0%259C%25D0%25B0%25D0%25B7%25D0%25BE%25D0%25B2%25D0%25B5%25D1%2586%25D0%25BA%25D0%25BE%25D0%25B5%2B%25D0%25B2%25D0%25BE%25D0%25B5%25D0%25B2%25D0%25BE%25D0%25B4%25D1%2581%25D1%2582%25D0%25B2%25D0%25BE</loc>
-        <lastmod>2015-04-18</lastmod>
-        <changefreq>hourly</changefreq>
-    </url>
-    <url>
-        <loc>http://prodaj.local/adv/index.php?page=search&amp;sCountry=Poland&amp;sRegion=mazowieckie%2C%2B%25D0%259C%25D0%25B0%25D0%25B7%25D0%25BE%25D0%25B2%25D0%25B5%25D1%2586%25D0%25BA%25D0%25BE%25D0%25B5%2B%25D0%25B2%25D0%25BE%25D0%25B5%25D0%25B2%25D0%25BE%25D0%25B4%25D1%2581%25D1%2582%25D0%25B2%25D0%25BE&amp;sCity=Warszawa</loc>
-        <lastmod>2015-04-18</lastmod>
-        <changefreq>hourly</changefreq>
-    </url>
-    <url>
-        <loc>http://prodaj.local/adv/index.php?page=search</loc>
-        <lastmod>2015-04-18</lastmod>
-        <changefreq>hourly</changefreq>
-    </url>
-    <url>
-        <loc>http://prodaj.local/adv/index.php?page=search</loc>
-        <lastmod>2015-04-18</lastmod>
-        <changefreq>hourly</changefreq>
-    </url>
-    <url>
-        <loc>http://prodaj.local/adv/index.php?page=search&amp;sCountry=Poland</loc>
-        <lastmod>2015-04-18</lastmod>
-        <changefreq>hourly</changefreq>
-    </url>
-    <url>
-        <loc>http://prodaj.local/adv/index.php?page=search&amp;sCountry=Poland&amp;sRegion=mazowieckie%2C%2B%25D0%259C%25D0%25B0%25D0%25B7%25D0%25BE%25D0%25B2%25D0%25B5%25D1%2586%25D0%25BA%25D0%25BE%25D0%25B5%2B%25D0%25B2%25D0%25BE%25D0%25B5%25D0%25B2%25D0%25BE%25D0%25B4%25D1%2581%25D1%2582%25D0%25B2%25D0%25BE</loc>
-        <lastmod>2015-04-18</lastmod>
-        <changefreq>hourly</changefreq>
-    </url>
-    <url>
-        <loc>http://prodaj.local/adv/index.php?page=search&amp;sCountry=Poland&amp;sRegion=mazowieckie%2C%2B%25D0%259C%25D0%25B0%25D0%25B7%25D0%25BE%25D0%25B2%25D0%25B5%25D1%2586%25D0%25BA%25D0%25BE%25D0%25B5%2B%25D0%25B2%25D0%25BE%25D0%25B5%25D0%25B2%25D0%25BE%25D0%25B4%25D1%2581%25D1%2582%25D0%25B2%25D0%25BE&amp;sCity=Warszawa</loc>
-        <lastmod>2015-04-18</lastmod>
-        <changefreq>hourly</changefreq>
-    </url>
-    <url>
-        <loc>http://prodaj.local/adv/index.php?page=search</loc>
-        <lastmod>2015-04-18</lastmod>
-        <changefreq>hourly</changefreq>
-    </url>
-    <url>
-        <loc>http://prodaj.local/adv/index.php?page=search&amp;sCountry=Poland&amp;sRegion=mazowieckie%2C%2B%25D0%259C%25D0%25B0%25D0%25B7%25D0%25BE%25D0%25B2%25D0%25B5%25D1%2586%25D0%25BA%25D0%25BE%25D0%25B5%2B%25D0%25B2%25D0%25BE%25D0%25B5%25D0%25B2%25D0%25BE%25D0%25B4%25D1%2581%25D1%2582%25D0%25B2%25D0%25BE&amp;sCity=Warszawa</loc>
-        <lastmod>2015-04-18</lastmod>
+        <lastmod>2015-04-25</lastmod>
         <changefreq>hourly</changefreq>
     </url>
 </urlset>

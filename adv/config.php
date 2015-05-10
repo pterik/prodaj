@@ -3,6 +3,8 @@
 /**
  * The base MySQL settings of Osclass
  */
+ 
+ if (file_exists(ABS_PATH . 'debug.php') ) require_once ABS_PATH . 'debug.php';
 define('MULTISITE', 0);
 
 /** MySQL database name for Osclass */

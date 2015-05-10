@@ -569,6 +569,14 @@
         }
     }
 
+    function osc_user_site_language_url() {
+        if ( osc_rewrite_enabled() ) {
+            return osc_base_url() . osc_get_preference('rewrite_user_site_language');
+        } else {
+            return osc_base_url(true) . '?page=user&action=site_language';
+        }
+    }
+
     /**
      * Gets current user alert unsubscribe url
      *
@@ -638,6 +646,18 @@
     }
 
     /**
+     * Gets url to change site language
+     *
+     * @return string
+     */
+    function osc_site_language_url() {
+        if ( osc_rewrite_enabled() ) {
+            return osc_base_url() . osc_get_preference('rewrite_user_site_language');
+        } else {
+            return osc_base_url(true) . '?page=user&action=site_language';
+        }
+    }
+	/**
      * Gets url to change email
      *
      * @return string
@@ -905,6 +925,19 @@
 
 
     /**
+     * Gets Site Language for user
+     *
+     * @return string
+     */
+    function osc_get_site_language() {
+        if (View::newInstance()->_exists('SiteLanguage')) {
+            return View::newInstance()->_get('SiteLanguage');
+        } else {
+            return '';
+        }
+    }
+
+    /**
      * Gets list of countries
      *
      * @return string
@@ -1135,6 +1168,15 @@
      */
     function osc_is_list_alerts() {
         return osc_is_current_page('user', 'alerts');
+    }
+
+    /**
+     * Get if user is on site language page
+     *
+     * @return boolean
+     */
+    function osc_is_site_language_page() {
+        return osc_is_current_page('user', 'site_language');
     }
 
     /**

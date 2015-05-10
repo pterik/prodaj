@@ -101,6 +101,15 @@
     }
 
     /**
+     * Gets logged user mail
+     *
+     * @return string
+     */
+    function osc_logged_user_site_language() {
+        return (string) Session::newInstance()->_get('SiteLanguage');
+    }
+
+    /**
      * Gets logged user name
      *
      * @return string

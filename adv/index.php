@@ -70,7 +70,6 @@
     if(osc_is_web_user_logged_in()) {
         User::newInstance()->lastAccess(osc_logged_user_id(), date('Y-m-d H:i:s'), $_SERVER['REMOTE_ADDR'], 3600);
     }
-
     switch( Params::getParam('page') )
     {
         case ('cron'):      // cron system
@@ -148,6 +147,6 @@
             osc_doRequest(osc_base_url(), array('page' => 'cron'));
         }
     }
-
+   
     /* file end: ./index.php */
 ?>

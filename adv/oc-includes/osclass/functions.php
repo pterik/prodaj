@@ -162,6 +162,7 @@ function meta_title() {
         case('user'):
             switch ($section) {
                 case('dashboard'):       $text = __('Dashboard'); break;
+                case('site_language'):   $text = __('Site language'); break;
                 case('items'):           $text = __('Manage my listings'); break;
                 case('alerts'):          $text = __('Manage my alerts'); break;
                 case('profile'):         $text = __('Update my profile'); break;

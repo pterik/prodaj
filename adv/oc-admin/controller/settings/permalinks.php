@@ -278,6 +278,12 @@ HTACCESS;
                         } else {
                             osc_set_preference('rewrite_user_change_password', $rewrite_user_change_password);;
                         }
+                        $rewrite_user_site_language = substr(str_replace('//', '/', Params::getParam('rewrite_user_site_language').'/'), 0, -1);
+                        if(!osc_validate_text($rewrite_user_site_language)) {
+                            $errors += 1;
+                        } else {
+                            osc_set_preference('rewrite_user_site_language', $rewrite_user_site_language);;
+                        }
                         $rewrite_user_change_email = substr(str_replace('//', '/', Params::getParam('rewrite_user_change_email').'/'), 0, -1);
                         if(!osc_validate_text($rewrite_user_change_email)) {
                             $errors += 1;
@@ -367,6 +373,7 @@ HTACCESS;
                         $rewrite->addRule('^'.osc_get_preference('rewrite_user_recover').'/?$', 'index.php?page=login&action=recover');
                         $rewrite->addRule('^'.osc_get_preference('rewrite_user_forgot').'/([0-9]+)/(.*)/?$', 'index.php?page=login&action=forgot&userId=$1&code=$2');
                         $rewrite->addRule('^'.osc_get_preference('rewrite_user_change_password').'/?$', 'index.php?page=user&action=change_password');
+                        $rewrite->addRule('^'.osc_get_preference('rewrite_user_site_language').'/?$', 'index.php?page=user&action=site_language');
                         $rewrite->addRule('^'.osc_get_preference('rewrite_user_change_email').'/?$', 'index.php?page=user&action=change_email');
                         $rewrite->addRule('^'.osc_get_preference('rewrite_user_change_username').'/?$', 'index.php?page=user&action=change_username');
                         $rewrite->addRule('^'.osc_get_preference('rewrite_user_change_email_confirm').'/([0-9]+)/(.*?)/?$', 'index.php?page=user&action=change_email_confirm&userId=$1&code=$2');

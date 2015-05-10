@@ -152,6 +152,14 @@
                             required: true,
                             minlength: 1
                         },
+                        rewrite_user_site_language: {
+                            required: true,
+                            minlength: 1
+                        },
+                        rewrite_user_site_language_confirm: {
+                            required: true,
+                            minlength: 1
+                        },
                         rewrite_user_change_password: {
                             required: true,
                             minlength: 1
@@ -305,6 +313,14 @@
                         rewrite_user_change_password: {
                             required: '<?php echo osc_esc_js( __("Change password url: this field is required")); ?>.',
                             minlength: '<?php echo osc_esc_js( __("Change password url: this field is required")); ?>.'
+                        },
+                        rewrite_user_site_language: {
+                            required: '<?php echo osc_esc_js( __("Site language url: this field is required")); ?>.',
+                            minlength: '<?php echo osc_esc_js( __("Site language url: this field is required")); ?>.'
+                        },
+                        rewrite_user_site_language_confirm: {
+                            required: '<?php echo osc_esc_js( __("Site language confirm url: this field is required")); ?>.',
+                            minlength: '<?php echo osc_esc_js( __("Site language confirm url: this field is required")); ?>.'
                         },
                         rewrite_user_change_email: {
                             required: '<?php echo osc_esc_js( __("Change email url: this field is required")); ?>.',
@@ -627,6 +643,17 @@
                                         <div class="form-label"><?php _e('User change email confirm'); ?></div>
                                         <div class="form-controls">
                                             <input type="text" class="input-large" name="rewrite_user_change_email_confirm" value="<?php echo osc_esc_html(osc_get_preference('rewrite_user_change_email_confirm')); ?>" />
+                                        </div>
+                                    <div class="form-row">
+                                        <div class="form-label"><?php _e('Site language'); ?></div>
+                                        <div class="form-controls">
+                                            <input type="text" class="input-large" name="rewrite_site_language" value="<?php echo osc_esc_html(osc_get_preference('rewrite_site_language')); ?>" />
+                                        </div>
+                                    </div>
+                                    <div class="form-row">
+                                        <div class="form-label"><?php _e('Site language confirm'); ?></div>
+                                        <div class="form-controls">
+                                            <input type="text" class="input-large" name="rewrite_site_language_confirm" value="<?php echo osc_esc_html(osc_get_preference('rewrite_site_language_confirm')); ?>" />
                                         </div>
                                     </div>
                                     <div class="form-row">

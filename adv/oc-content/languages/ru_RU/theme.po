@@ -279,6 +279,10 @@ msgstr "Подписки"
 msgid "Update account"
 msgstr "Обновить учетную запись"
 
+#: functions.php:382 functions.php:427
+msgid "Site language"
+msgstr "Язык сайта"
+
 #: functions.php:369 functions.php:419
 msgid "Change email"
 msgstr "Изменить электронную почту"
@@ -287,6 +291,10 @@ msgstr "Изменить электронную почту"
 #: user-change_username.php:39
 msgid "Change username"
 msgstr "Изменить имя пользователя"
+
+#: user-site_language.php:
+msgid "Change site language"
+msgstr "Изменить язык сообщений на сайте"
 
 #: functions.php:371 functions.php:374 functions.php:429
 #: user-change_password.php:32 user-change_password.php:37

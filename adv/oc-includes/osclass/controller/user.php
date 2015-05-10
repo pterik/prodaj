@@ -97,12 +97,26 @@
                                         $this->_exportVariableToView('user', $user);
                                         $this->doView('user-alerts.php');
                 break;
+                case('site_language'):           //site language
+                                        $user = User::newInstance()->findByPrimaryKey( osc_logged_user_id() );
+                                        $this->_exportVariableToView('locales', OSCLocale::newInstance()->listAllEnabled() );
+                                       // $this->_exportVariableToView('SiteLanguage', osc_logged_user_site_language() );
+                                        
+                                        $this->doView('user-site_language.php');
+                break;
+                case('site_language_post'):           //site language
+                                        //$user = User::newInstance()->findByPrimaryKey( osc_logged_user_id() );
+                                        //$this->_exportVariableToView('locales', OSCLocale::newInstance()->listAllEnabled() );
+                                        //$this->doView('user-site_language.php');
+										//$this->redirectTo( osc_change_site_language() );
+                                        $this->redirectTo( osc_site_language_url() );
+                break;
                 case('change_email'):           //change email
-                                                $this->doView('user-change_email.php');
+                                        $this->doView('user-change_email.php');
                 break;
                 case('change_email_post'):      //change email post
-                                                osc_csrf_check();
-                                                if(!osc_validate_email(Params::getParam('new_email'))) {
+                                        osc_csrf_check();
+                                        if(!osc_validate_email(Params::getParam('new_email'))) {
                                                     osc_add_flash_error_message( _m('The specified e-mail is not valid'));
                                                     $this->redirectTo( osc_change_user_email_url() );
                                                 } else {

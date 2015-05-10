@@ -32,6 +32,7 @@
         {
             $error = array();
             $flash_error = '';
+
             if( (osc_recaptcha_private_key() != '') && !$this->is_admin ) {
                 if( !osc_check_recaptcha() ) {
                     $flash_error .= _m('The reCAPTCHA was not entered correctly') . PHP_EOL;
@@ -134,7 +135,6 @@
                 );
                 $success = 2;
             }
-
             osc_run_hook('user_register_completed', $userId);
             return $success;
         }
@@ -162,6 +162,10 @@
                 $error[] = 10;
             }
 
+            if($input['s_name']=='') {
+                $flash_error .= _m('The name cannot be empty').PHP_EOL;
+                $error[] = 10;
+            }
             if($this->is_admin){
                 if( Params::getParam('s_password', false, false) != Params::getParam('s_password2', false, false) ) {
                     $flash_error .= _m("Passwords don't match") . PHP_EOL;
@@ -170,10 +174,10 @@
             }
 
             $flash_error = osc_apply_filter('user_edit_flash_error', $flash_error, $userId);
+
             if($flash_error!='') {
                 return $flash_error;
             }
-
             $this->manager->update($input, array('pk_i_id' => $userId));
 
             if($this->is_admin) {
@@ -201,7 +205,6 @@
                     $this->manager->updateDescription($userId, $key, $value);
                 }
             }
-
             osc_run_hook('user_edit_completed', $userId);
 
             if ( $this->is_admin ) {
@@ -280,7 +283,7 @@
             $input['s_website']      = trim(Params::getParam('s_website'));
             $input['s_phone_land']   = trim(Params::getParam('s_phone_land'));
             $input['s_phone_mobile'] = trim(Params::getParam('s_phone_mobile'));
-
+            $input['fk_c_language_code'] = trim(Params::getParam('fk_c_language_code'));
             if(strtolower(substr($input['s_website'], 0, 4))!=='http') {
                 $input['s_website'] = 'http://'.$input['s_website'];
             }

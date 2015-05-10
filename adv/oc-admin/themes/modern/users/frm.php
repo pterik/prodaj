@@ -189,24 +189,8 @@
         <form name="register" action="<?php echo osc_admin_base_url(true); ?>" method="post">
             <input type="hidden" name="page" value="users" />
             <input type="hidden" name="action" value="<?php echo $aux['action_frm']; ?>" />
-            <h3 class="render-title"><?php _e('Contact info'); ?></h3>
-            <?php UserForm::primary_input_hidden($user); ?>
-            <?php if($aux['edit']) { ?>
-                <input type="hidden" name="b_enabled" value="<?php echo $user['b_enabled']; ?>" />
-                <input type="hidden" name="b_active" value="<?php echo $user['b_active']; ?>" />
-            <?php } ?>
             <fieldset>
             <div class="form-horizontal">
-                <?php if($aux['edit']) { ?>
-                <div class="form-row">
-                    <div class="form-label"><?php _e('Last access'); ?></div>
-                    <div class="form-controls">
-                        <div class='form-label-checkbox'>
-                        <?php echo sprintf(__("%s on %s"), $user['s_access_ip'], $user['dt_access_date']);?>
-                        </div>
-                    </div>
-                </div>
-                <?php }; ?>
                 <div class="form-row">
                     <div class="form-label"><?php _e('Name'); ?></div>
                     <div class="form-controls">
@@ -225,6 +209,44 @@
                         <?php UserForm::email_text($user); ?>
                     </div>
                 </div>
+            </div>
+            <div class="form-horizontal">
+                <div class="form-row">
+                    <div class="form-label"><?php _e('New password'); ?><?php if(!$aux['edit']) { printf('<br/><em>%s</em>', __('(twice, required)')); } ?></div>
+                    <div class="form-controls">
+                        <?php UserForm::password_text($user); ?>
+                        <?php if($aux['edit']) { ?>
+                            <p class="help-inline"><?php _e("If you'd like to change the password, type a new one. Otherwise leave this blank"); ?></p>
+                        <?php } ?>
+                        <div class="input-separate-top">
+                            <?php UserForm::check_password_text($user); ?>
+                            <?php if($aux['edit']) { ?>
+                                <p class="help-inline"><?php _e('Type your new password again'); ?></p>
+                            <?php } ?>
+                        </div>
+                    </div>
+                </div>
+            </div>    
+                <div class="form-actions">
+                 <input type="submit" value="<?php echo osc_esc_html($aux['btn_text']); ?>" class="btn btn-submit" />
+                </div>
+                <div class="form-horizontal">
+            <h3 class="render-title"><?php _e('Contact info'); ?></h3>
+            <?php UserForm::primary_input_hidden($user); ?>
+            <?php if($aux['edit']) { ?>
+                <input type="hidden" name="b_enabled" value="<?php echo $user['b_enabled']; ?>" />
+                <input type="hidden" name="b_active" value="<?php echo $user['b_active']; ?>" />
+            <?php } ?>
+                <?php if($aux['edit']) { ?>
+                <div class="form-row">
+                    <div class="form-label"><?php _e('Last access'); ?></div>
+                    <div class="form-controls">
+                        <div class='form-label-checkbox'>
+                        <?php echo sprintf(__("%s on %s"), $user['s_access_ip'], $user['dt_access_date']);?>
+                        </div>
+                    </div>
+                </div>
+                <?php }; ?>
                 <div class="form-row">
                     <div class="form-label"><?php _e('Cell phone'); ?></div>
                     <div class="form-controls">
@@ -251,9 +273,9 @@
                     </div>
                 </div>
                 <div class="form-row">
-                    <div class="form-label"><?php _e('Additional information'); ?></div>
+                    <div class="form-label"><?php _e('Site language'); ?></div>
                     <div class="form-controls">
-                        <?php UserForm::multilanguage_info($locales, $user); ?>
+                       <?php UserForm::site_language_select($locales, $user); ?>
                     </div>
                 </div>
                 <h3 class="render-title"><?php _e('Location'); ?></h3>
@@ -293,20 +315,11 @@
                         <?php UserForm::address_text($user); ?>
                     </div>
                 </div>
-                <h3 class="render-title"><?php _e('Password'); ?></h3>
+               
                 <div class="form-row">
-                    <div class="form-label"><?php _e('New password'); ?><?php if(!$aux['edit']) { printf('<br/><em>%s</em>', __('(twice, required)')); } ?></div>
+                    <div class="form-label"><?php _e('Additional information'); ?></div>
                     <div class="form-controls">
-                        <?php UserForm::password_text($user); ?>
-                        <?php if($aux['edit']) { ?>
-                            <p class="help-inline"><?php _e("If you'd like to change the password, type a new one. Otherwise leave this blank"); ?></p>
-                        <?php } ?>
-                        <div class="input-separate-top">
-                            <?php UserForm::check_password_text($user); ?>
-                            <?php if($aux['edit']) { ?>
-                                <p class="help-inline"><?php _e('Type your new password again'); ?></p>
-                            <?php } ?>
-                        </div>
+                        <?php UserForm::multilanguage_info($locales, $user); ?>
                     </div>
                 </div>
 

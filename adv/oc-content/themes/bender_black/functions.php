@@ -379,6 +379,7 @@ FUNCTIONS
             $lang['user_alerts']            = __('Alerts', 'bender_black');
             $lang['user_profile']           = __('Update account', 'bender_black');
             $lang['user_change_email']      = __('Change email', 'bender_black');
+            $lang['user_site_language']     = __('Site language', 'bender_black');
             $lang['user_change_username']   = __('Change username', 'bender_black');
             $lang['user_change_password']   = __('Change password', 'bender_black');
             $lang['login']                  = __('Login', 'bender_black');
@@ -423,6 +424,11 @@ FUNCTIONS
                 'class' => 'opt_alerts'
             );
             $options[] = array(
+                'name' => __('Site language', 'bender_black'),
+                'url' => osc_user_site_language_url(),
+                'class' => 'opt_site_language'
+            );
+            $options[] = array(
                 'name'  => __('Account', 'bender_black'),
                 'url'   => osc_user_profile_url(),
                 'class' => 'opt_account'
@@ -456,7 +462,7 @@ FUNCTIONS
         function delete_user_js() {
             $location = Rewrite::newInstance()->get_location();
             $section  = Rewrite::newInstance()->get_section();
-            if( ($location === 'user' && in_array($section, array('dashboard', 'profile', 'alerts', 'change_email', 'change_username',  'change_password', 'items'))) || (Params::getParam('page') ==='custom' && Params::getParam('in_user_menu')==true ) ) {
+            if( ($location === 'user' && in_array($section, array('dashboard', 'profile', 'alerts', 'site_language','change_email', 'change_username',  'change_password', 'items'))) || (Params::getParam('page') ==='custom' && Params::getParam('in_user_menu')==true ) ) {
                 osc_enqueue_script('delete-user-js');
             }
         }
@@ -468,7 +474,7 @@ FUNCTIONS
             $location = Rewrite::newInstance()->get_location();
             $section  = Rewrite::newInstance()->get_section();
 
-            if( $location === 'user' && in_array($section, array('dashboard', 'profile', 'alerts', 'change_email', 'change_username',  'change_password', 'items')) ) {
+            if( $location === 'user' && in_array($section, array('dashboard', 'profile', 'alerts', 'site_language','change_email', 'change_username',  'change_password', 'items')) ) {
                 $user = User::newInstance()->findByPrimaryKey( Session::newInstance()->_get('userId') );
                 View::newInstance()->_exportVariableToView('user', $user);
                 ?>

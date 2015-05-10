@@ -195,6 +195,7 @@ function osc_private_user_menu($options = null)
         $options = array();
         $options[] = array('name' => __('Public Profile'), 'url' => osc_user_public_profile_url(), 'class' => 'opt_publicprofile');
         $options[] = array('name' => __('Dashboard'), 'url' => osc_user_dashboard_url(), 'class' => 'opt_dashboard');
+        $options[] = array('name' => __('Site language'), 'url' => osc_user_site_language_url(), 'class' => 'opt_site_language');
         $options[] = array('name' => __('Manage your listings'), 'url' => osc_user_list_items_url(), 'class' => 'opt_items');
         $options[] = array('name' => __('Manage your alerts'), 'url' => osc_user_alerts_url(), 'class' => 'opt_alerts');
         $options[] = array('name' => __('My profile'), 'url' => osc_user_profile_url(), 'class' => 'opt_account');

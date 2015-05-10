@@ -251,6 +251,7 @@ CREATE TABLE %st_item_description_tmp (
         osc_set_preference('rewrite_user_recover', 'user/recover');
         osc_set_preference('rewrite_user_forgot', 'user/forgot');
         osc_set_preference('rewrite_user_change_password', 'user/change_password');
+        osc_set_preference('rewrite_user_site_language', 'user/site_language');
         osc_set_preference('rewrite_user_change_email', 'user/change_email');
         osc_set_preference('rewrite_user_change_email_confirm', 'user/change_email_confirm');
 

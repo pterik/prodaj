@@ -81,7 +81,7 @@
             } else {
                 $this->dao->where('b_enabled', 1);
             }
-            $this->dao->orderBy('s_name', 'ASC');
+            $this->dao->orderBy('s_name', 'ASC');          
             $result = $this->dao->get();
 
             if($result == false) {
@@ -90,7 +90,7 @@
 
             $aResults = $result->result();
 
-            if ($indexedByPk) {
+            if ($indexedByPk==1) {
                 $aTmp = array();
                 for ($i = 0; $i < count($aResults); $i++) {
                     $aTmp[(string)$aResults[$i][$this->getPrimaryKey()]] = $aResults[$i];

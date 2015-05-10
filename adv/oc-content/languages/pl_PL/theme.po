@@ -279,6 +279,10 @@ msgstr "Powiadomienia"
 msgid "Update account"
 msgstr "Aktualizuj konto"
 
+#: functions.php:382 functions.php:427
+msgid "Site language"
+msgstr "Język strony"
+
 #: functions.php:369 functions.php:419
 msgid "Change email"
 msgstr "Zmień e-mail"
@@ -287,6 +291,10 @@ msgstr "Zmień e-mail"
 #: user-change_username.php:39
 msgid "Change username"
 msgstr "Zmień nazwę użytkownika"
+
+#: user-site_language.php:
+msgid "Change site language"
+msgstr "Zmiana języka na stronie"
 
 #: functions.php:371 functions.php:374 functions.php:429
 #: user-change_password.php:32 user-change_password.php:37

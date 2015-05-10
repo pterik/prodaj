@@ -41,6 +41,7 @@
                                 'search_gallery',
                                 'search_list',
                                 'user-alerts',
+                                'user-site_language',
                                 'user-change_email',
                                 'user-change_password',
                                 'user-dashboard',

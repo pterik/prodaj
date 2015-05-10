@@ -1228,6 +1228,11 @@ msgstr "(np.: 192.168.10-20.*)"
 msgid "About you"
 msgstr "O Tobie"
 
+#: oc-admin/themes/modern/users/frm.php:262
+#: oc-includes/osclass/helpers/hUtils.php:198
+msgid "Site language"
+msgstr "Język strony"
+
 #: oc-admin/themes/modern/users/frm.php:302
 msgid "If you'd like to change the password, type a new one. Otherwise leave this blank"
 msgstr "Jeśli chcesz zmienić hasło, wpisz nowe. Jeśli nie, zostaw to pole puste."
@@ -3653,6 +3658,10 @@ msgstr "Pokaż filtry"
 #: oc-includes/osclass/frm/User.form.class.php:148
 msgid "User"
 msgstr "Użytkownik"
+
+#: oc-includes/osclass/frm/User.form.class.php:103
+msgid "Select a language..."
+msgstr "Wybierz język..."
 
 #: oc-admin/themes/modern/items/index.php:339
 #: oc-admin/themes/modern/users/alerts.php:135
