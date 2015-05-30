@@ -1,0 +1,303 @@
+# Translation of 3.0.x in Polish
+# This file is distributed under the same license as the 3.0.x package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2015-03-09 00:06+0100\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Poedit 1.7.4\n"
+"Project-Id-Version: 3.0.x\n"
+"POT-Creation-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: pl_PL\n"
+
+#: /var/www/osclass-plugins-git/cars_attributes/item_detail.php:1
+#: /var/www/osclass-plugins-git/cars_attributes/item_edit.php:34
+msgid "Car details"
+msgstr "Detali pojazdów"
+
+#: /var/www/osclass-plugins-git/cars_attributes/item_edit.php:116
+msgid "Select num. of doors"
+msgstr "Wybierz ilość drzwi"
+
+#: /var/www/osclass-plugins-git/cars_attributes/item_edit.php:130
+msgid "Select num. of seats"
+msgstr "Wybierz ilość miejsc"
+
+#: /var/www/osclass-plugins-git/cars_attributes/item_edit.php:162
+msgid "Select num. of airbags"
+msgstr "Ilość poduszek powietrznych"
+
+#: /var/www/osclass-plugins-git/cars_attributes/item_edit.php:251
+msgid "Select num. of gears"
+msgstr "Liczba transmisji"
+
+#: /var/www/osclass-plugins-git/cars_attributes/conf.php:88
+msgid "Makes"
+msgstr "Marka"
+
+#: /var/www/osclass-plugins-git/cars_attributes/conf.php:99
+#: /var/www/osclass-plugins-git/cars_attributes/conf.php:152
+#: /var/www/osclass-plugins-git/cars_attributes/conf.php:215
+msgid "Delete"
+msgstr "Usunąć"
+
+#: /var/www/osclass-plugins-git/cars_attributes/conf.php:103
+#: /var/www/osclass-plugins-git/cars_attributes/conf.php:159
+#: /var/www/osclass-plugins-git/cars_attributes/conf.php:221
+msgid "Edit"
+msgstr "Edytuj"
+
+#: /var/www/osclass-plugins-git/cars_attributes/conf.php:109
+msgid "Add new make"
+msgstr "Dodaj nową markę"
+
+#: /var/www/osclass-plugins-git/cars_attributes/conf.php:117
+#: /var/www/osclass-plugins-git/cars_attributes/conf.php:176
+#: /var/www/osclass-plugins-git/cars_attributes/conf.php:254
+msgid "Add new"
+msgstr "Dodaj nową"
+
+#: /var/www/osclass-plugins-git/cars_attributes/conf.php:132
+msgid "Models"
+msgstr "Modele"
+
+#: /var/www/osclass-plugins-git/cars_attributes/conf.php:135
+#: /var/www/osclass-plugins-git/cars_attributes/item_edit.php:44
+#: /var/www/osclass-plugins-git/cars_attributes/search_form.php:50
+msgid "Select a make"
+msgstr "Wybierz markę"
+
+#: /var/www/osclass-plugins-git/cars_attributes/conf.php:165
+msgid "Add new model"
+msgstr "Dodaj nowy model"
+
+#: /var/www/osclass-plugins-git/cars_attributes/conf.php:191
+msgid "Vehicle types"
+msgstr "Typ pojazdu"
+
+#: /var/www/osclass-plugins-git/cars_attributes/conf.php:231
+msgid "Add new car type"
+msgstr "Dodaj typ pojazdu"
+
+#: /var/www/osclass-plugins-git/cars_attributes/conf.php:269
+msgid "Warning"
+msgstr "Оstrzeżenie"
+
+#: /var/www/osclass-plugins-git/cars_attributes/conf.php:271
+msgid "Deleting makes or models may end in errors. Some of those makes/models could be attached to some actual items"
+msgstr "Usunięcie marki lub modelu może prowadzić do błędów. Niektóre z tych marek / modeli może być dołączony do niektórych konkretnych reklam"
+
+#: /var/www/osclass-plugins-git/cars_attributes/index.php:186
+msgid "Configure plugin"
+msgstr "Skonfiguruj plugin"
+
+#: /var/www/osclass-plugins-git/cars_attributes/index.php:187
+msgid "Manage makes"
+msgstr "Zarządzanie marką"
+
+#: /var/www/osclass-plugins-git/cars_attributes/index.php:188
+msgid "Manage models"
+msgstr "Modele zarządzania"
+
+#: /var/www/osclass-plugins-git/cars_attributes/index.php:189
+msgid "Manage vehicle types"
+msgstr "Rodzaje zarządzania aut"
+
+#: /var/www/osclass-plugins-git/cars_attributes/search_form.php:46
+msgid "Cars attributes"
+msgstr "Atrybuty maszyn"
+
+#: /var/www/osclass-plugins-git/cars_attributes/item_detail.php:5
+#: /var/www/osclass-plugins-git/cars_attributes/item_edit.php:42
+#: /var/www/osclass-plugins-git/cars_attributes/search_form.php:48
+msgid "Make"
+msgstr "Marka"
+
+#: /var/www/osclass-plugins-git/cars_attributes/item_detail.php:11
+#: /var/www/osclass-plugins-git/cars_attributes/item_edit.php:56
+#: /var/www/osclass-plugins-git/cars_attributes/search_form.php:57
+msgid "Model"
+msgstr "Model"
+
+#: /var/www/osclass-plugins-git/cars_attributes/item_detail.php:18
+#: /var/www/osclass-plugins-git/cars_attributes/item_edit.php:72
+#: /var/www/osclass-plugins-git/cars_attributes/item_edit.php:86
+#: /var/www/osclass-plugins-git/cars_attributes/search_form.php:66
+msgid "Car type"
+msgstr "Typ pojazdu"
+
+#: /var/www/osclass-plugins-git/cars_attributes/item_detail.php:24
+#: /var/www/osclass-plugins-git/cars_attributes/item_edit.php:105
+msgid "Year"
+msgstr "Rok"
+
+#: /var/www/osclass-plugins-git/cars_attributes/item_detail.php:30
+#: /var/www/osclass-plugins-git/cars_attributes/item_edit.php:114
+msgid "Doors"
+msgstr "Drzwi"
+
+#: /var/www/osclass-plugins-git/cars_attributes/item_detail.php:36
+#: /var/www/osclass-plugins-git/cars_attributes/item_edit.php:128
+msgid "Seats"
+msgstr "Miejsca"
+
+#: /var/www/osclass-plugins-git/cars_attributes/item_detail.php:42
+#: /var/www/osclass-plugins-git/cars_attributes/item_edit.php:142
+msgid "Mileage"
+msgstr "Przebieg"
+
+#: /var/www/osclass-plugins-git/cars_attributes/item_detail.php:48
+#: /var/www/osclass-plugins-git/cars_attributes/item_edit.php:151
+msgid "Engine size (cc)"
+msgstr "Głośność silnika (cs)"
+
+#: /var/www/osclass-plugins-git/cars_attributes/item_detail.php:54
+#: /var/www/osclass-plugins-git/cars_attributes/item_edit.php:160
+msgid "Num. Airbags"
+msgstr "Ilość poduszek powietrznych"
+
+#: /var/www/osclass-plugins-git/cars_attributes/item_detail.php:60
+#: /var/www/osclass-plugins-git/cars_attributes/item_edit.php:176
+#: /var/www/osclass-plugins-git/cars_attributes/search_form.php:77
+msgid "Manual"
+msgstr "Manualna"
+
+#: /var/www/osclass-plugins-git/cars_attributes/item_detail.php:60
+#: /var/www/osclass-plugins-git/cars_attributes/item_edit.php:177
+msgid "Auto"
+msgstr "Automatyczna"
+
+#: /var/www/osclass-plugins-git/cars_attributes/item_detail.php:61
+#: /var/www/osclass-plugins-git/cars_attributes/item_edit.php:174
+#: /var/www/osclass-plugins-git/cars_attributes/search_form.php:76
+msgid "Transmission"
+msgstr "Skrzynia biegów"
+
+#: /var/www/osclass-plugins-git/cars_attributes/item_detail.php:67
+#: /var/www/osclass-plugins-git/cars_attributes/item_edit.php:188
+msgid "Diesel"
+msgstr "Diesel"
+
+#: /var/www/osclass-plugins-git/cars_attributes/item_detail.php:68
+#: /var/www/osclass-plugins-git/cars_attributes/item_edit.php:189
+msgid "Gasoline"
+msgstr "Benzyna"
+
+#: /var/www/osclass-plugins-git/cars_attributes/item_detail.php:69
+#: /var/www/osclass-plugins-git/cars_attributes/item_edit.php:190
+msgid "Electric-hibrid"
+msgstr "Elektryczny-hybrydowy"
+
+#: /var/www/osclass-plugins-git/cars_attributes/item_detail.php:70
+#: /var/www/osclass-plugins-git/cars_attributes/item_edit.php:191
+msgid "Other"
+msgstr "Inny"
+
+#: /var/www/osclass-plugins-git/cars_attributes/item_detail.php:72
+#: /var/www/osclass-plugins-git/cars_attributes/item_edit.php:186
+msgid "Fuel"
+msgstr "Paliwo"
+
+#: /var/www/osclass-plugins-git/cars_attributes/item_detail.php:78
+#: /var/www/osclass-plugins-git/cars_attributes/item_edit.php:202
+msgid "Dealer"
+msgstr "Dealer"
+
+#: /var/www/osclass-plugins-git/cars_attributes/item_detail.php:78
+#: /var/www/osclass-plugins-git/cars_attributes/item_edit.php:203
+msgid "Owner"
+msgstr "Właściciel"
+
+#: /var/www/osclass-plugins-git/cars_attributes/item_detail.php:79
+#: /var/www/osclass-plugins-git/cars_attributes/item_edit.php:200
+msgid "Seller"
+msgstr "Sprzedawca"
+
+#: /var/www/osclass-plugins-git/cars_attributes/item_detail.php:84
+#: /var/www/osclass-plugins-git/cars_attributes/item_edit.php:212
+msgid "Warranty"
+msgstr "Gwarancja"
+
+#: /var/www/osclass-plugins-git/cars_attributes/item_detail.php:85
+#: /var/www/osclass-plugins-git/cars_attributes/item_detail.php:88
+msgid "Yes"
+msgstr "Tak"
+
+#: /var/www/osclass-plugins-git/cars_attributes/item_detail.php:85
+#: /var/www/osclass-plugins-git/cars_attributes/item_detail.php:88
+msgid "No"
+msgstr "Nie"
+
+#: /var/www/osclass-plugins-git/cars_attributes/item_detail.php:87
+#: /var/www/osclass-plugins-git/cars_attributes/item_edit.php:220
+msgid "New"
+msgstr "Nowy"
+
+#: /var/www/osclass-plugins-git/cars_attributes/item_detail.php:92
+#: /var/www/osclass-plugins-git/cars_attributes/item_edit.php:231
+msgid "Power"
+msgstr "Moc"
+
+#: /var/www/osclass-plugins-git/cars_attributes/item_detail.php:98
+#: /var/www/osclass-plugins-git/cars_attributes/item_edit.php:249
+msgid "Gears"
+msgstr "Gears"
+
+#: /var/www/osclass-plugins-git/cars_attributes/item_edit.php:16
+#: /var/www/osclass-plugins-git/cars_attributes/item_edit.php:27
+#: /var/www/osclass-plugins-git/cars_attributes/item_edit.php:58
+#: /var/www/osclass-plugins-git/cars_attributes/search_form.php:16
+#: /var/www/osclass-plugins-git/cars_attributes/search_form.php:59
+msgid "Select a model"
+msgstr "Wybierz model"
+
+#: /var/www/osclass-plugins-git/cars_attributes/item_edit.php:21
+#: /var/www/osclass-plugins-git/cars_attributes/search_form.php:21
+msgid "No results"
+msgstr "Brak wyników"
+
+#: /var/www/osclass-plugins-git/cars_attributes/item_edit.php:74
+#: /var/www/osclass-plugins-git/cars_attributes/item_edit.php:88
+#: /var/www/osclass-plugins-git/cars_attributes/search_form.php:68
+msgid "Select a car type"
+msgstr "Wybierz typ samochodu"
+
+#: /var/www/osclass-plugins-git/cars_attributes/item_edit.php:234
+msgid "Kw"
+msgstr "Kw"
+
+#: /var/www/osclass-plugins-git/cars_attributes/item_edit.php:235
+msgid "Cv"
+msgstr "Cv"
+
+#: /var/www/osclass-plugins-git/cars_attributes/item_edit.php:236
+msgid "Ch"
+msgstr "Ch"
+
+#: /var/www/osclass-plugins-git/cars_attributes/item_edit.php:237
+msgid "Km"
+msgstr "Km"
+
+#: /var/www/osclass-plugins-git/cars_attributes/item_edit.php:238
+msgid "Hp"
+msgstr "Hp"
+
+#: /var/www/osclass-plugins-git/cars_attributes/item_edit.php:239
+msgid "Ps"
+msgstr "Ps"
+
+#: /var/www/osclass-plugins-git/cars_attributes/item_edit.php:240
+msgid "Pk"
+msgstr "Pk"
+
+#: /var/www/osclass-plugins-git/cars_attributes/item_edit.php:241
+msgid "Cp"
+msgstr "Cp"
+
+#: /var/www/osclass-plugins-git/cars_attributes/search_form.php:78
+msgid "Automatic"
+msgstr "Automatyczny"

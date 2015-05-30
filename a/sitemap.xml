@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>http://prodaj.pl/adv/</loc>
+        <lastmod>2015-05-19</lastmod>
+        <changefreq>always</changefreq>
+    </url>
+    <url>
+        <loc>http://prodaj.pl/adv/index.php?page=search</loc>
+        <lastmod>2015-05-19</lastmod>
+        <changefreq>hourly</changefreq>
+    </url>
+    <url>
+        <loc>http://prodaj.pl/adv/index.php?page=search&amp;sCategory=%2525d0%25259d%2525d0%2525b5%2525d1%252580%2525d1%252583%2525d1%252585%2525d0%2525be%2525d0%2525bc%2525d1%252596%2525d1%252581%2525d1%252582%2525d1%25258c</loc>
+        <lastmod>2015-05-19</lastmod>
+        <changefreq>hourly</changefreq>
+    </url>
+</urlset>
