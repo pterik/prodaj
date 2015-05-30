@@ -22,7 +22,7 @@ define('DB_NAME', 'u519801583_oc');
 define('DB_USER', 'u519801583_oc');
 
 /** Пароль к базе данных MySQL */
-define('DB_PASSWORD', 'ZDcvoVd2nj');
+define('DB_PASSWORD', 'bZROmaU2PX');
 
 /** Имя сервера MySQL */
 define('DB_HOST', 'mysql.hostinger.pl');
